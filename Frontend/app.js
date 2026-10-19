@@ -26,7 +26,7 @@ function App() {
         setResult(null);
 
         try {
-            const response = await fetch("http://127.0.0.1:8000/api/v1/parse-cv", {
+            const response = await fetch("https://ai-resume-matcher-1-4px7.onrender.com", {
                 method: "POST",
                 body: formData,
             });
