@@ -26,7 +26,7 @@ function App() {
         setResult(null);
 
         try {
-            const response = await fetch("https://ai-resume-matcher-1-4px7.onrender.com", {
+            const response = await fetch("https://ai-resume-matcher-1-4px7.onrender.com/analyze", {
                 method: "POST",
                 body: formData,
             });
